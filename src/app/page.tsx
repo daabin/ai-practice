@@ -1,3 +1,5 @@
+"use client"
+
 import { useTranslations } from 'next-intl';
 import Image from "next/image";
 import LoginLink from "@/components/LoginLink";
@@ -25,7 +27,7 @@ export default function Home() {
         <div className="grid items-center grid-cols-2 gap-12">
           <div className="mb-4">
             <p className="text-2xl font-semibold tracking-wider text-green-600">{t('subTitle')}</p>
-            <h1 className="mt-4 text-6xl font-bold text-black leading-normal">{t('title')}</h1>
+            <h1 className="mt-4 text-6xl font-bold text-black leading-normal" dangerouslySetInnerHTML={{__html: t.raw('title')}}></h1>
             <p className="mt-4 text-xl text-black mb-6">{t('usage')}</p>
             <LoginLink></LoginLink>
           </div>
