@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "title": "AI 驱动的个性化练习平台",
+    "subTitle": "面向海外地区汉语学习者",
+    "usage": "旅游、贸易、文化交流 ..."
+  },
+  "Login": {
+    "login": "登录",
+    "register": "注册",
+    "reset": "重置密码",
+    "email": "邮箱",
+    "password": "密码",
+    "verifyCode": "验证码",
+    "tipRegister": "暂无账号？",
+    "tipLogin": "已有账号？",
+    "tipReset": "忘记密码？",
+    "tipToLogin": "前往登录",
+    "tipToRegister": "前往注册",
+    "tipAccountError": "邮箱或密码错误",
+    "tipEmailError": "邮箱格式错误",
+    "tipVerifyCodeError": "验证码错误",
+    "tipVerifySendSuccess": "验证码发送成功",
+    "tipVerifySendFail": "验证码发送失败，请稍后重试",
+    "getVerifyCode": "获取邮箱验证码"
+  }
+}

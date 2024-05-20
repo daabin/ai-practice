@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "title": "AI-driven personalized practice platform",
+    "subTitle": "Targeting Chinese language learners in overseas regions.",
+    "usage": "Tourism, trade, cultural exchange..."
+  },
+  "Login": {
+    "login": "Log in",
+    "register": "Register",
+    "reset": "Reset",
+    "email": "Email",
+    "password": "Password",
+    "verifyCode": "Verify Code",
+    "tipRegister": "No account yet?",
+    "tipLogin": "Already have an account?",
+    "tipReset": "Forget the password?",
+    "tipToLogin": "Go to log in",
+    "tipToRegister": "Go to register",
+    "tipAccountError": "Incorrect email or password",
+    "tipEmailError": "Invalid email format",
+    "tipVerifyCodeError": "Incorrect verification code",
+    "tipVerifySendSuccess": "Verification code sent successfully",
+    "tipVerifySendFail": "Failed to send verification code, please try again later",
+    "getVerifyCode": "Get email verification code"
+  }
+}
