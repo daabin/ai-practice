@@ -11,7 +11,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const languages = [
   { label: "English", value: "en" },
@@ -21,11 +21,16 @@ const languages = [
 
 export default function SwitchLocale() {
   const [open, setOpen] = useState(false)
+  const [originalLocale, setOriginalLocale] = useState('')
   const router = useRouter()
-  const originalLocale = JsCookie.get("__locale") || "zh"
+
+  useEffect(() => {
+    setOriginalLocale(JsCookie.get("__locale") || "zh")
+  }, [])
 
   const switchLocal = (locale: string) => {
     setOpen(false)
+    setOriginalLocale(locale)
     JsCookie.set("__locale", locale)
     router.refresh()
   }
